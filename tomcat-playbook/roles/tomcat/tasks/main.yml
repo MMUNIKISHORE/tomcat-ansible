@@ -32,3 +32,8 @@
     src: server.xml
     dest: "{{ server_path }}"
    notify: restart tomcat7
+
+ - name: copying war package to remote
+   copy:
+    src: /var/lib/tomcat7/webapps/CounterWebApp1.war
+    dest: /var/lib/tomcat7/webapps/CounterWebApp1.war
