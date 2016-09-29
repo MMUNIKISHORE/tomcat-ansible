@@ -4,7 +4,6 @@
    with_items:
      - tomcat7
      - tomcat7-admin
-     - tomcat7-docs
      - tomcat7-examples
 
  - name: Setting CATALINA_HOME
