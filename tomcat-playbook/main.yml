@@ -10,5 +10,5 @@
         - zip
         - unzip
    roles:
-        - java
+        #- java
         - tomcat
