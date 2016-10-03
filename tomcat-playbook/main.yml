@@ -1,6 +1,7 @@
 ---
  - name: Tomacat configuration
    hosts: localhost
+   user: shifamariam12
    sudo: yes
    tasks:
     - name: Install Prerequisites.
